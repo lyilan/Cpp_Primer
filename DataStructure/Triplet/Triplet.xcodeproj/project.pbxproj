@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7F3FDD12632A7E900621C43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7F3FDD02632A7E900621C43 /* main.cpp */; };
+		B7F3FE1E26343B8000621C43 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B7F3FE1D26343B8000621C43 /* main.c */; };
+		B7F3FE2726343C1200621C43 /* Triplet.c in Sources */ = {isa = PBXBuildFile; fileRef = B7F3FE2626343C1200621C43 /* Triplet.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B7F3FDCB2632A7E900621C43 /* CopyFiles */ = {
+		B7F3FE1826343B8000621C43 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B7F3FDCD2632A7E900621C43 /* Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7F3FDD02632A7E900621C43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B7F3FE1A26343B8000621C43 /* Triplet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Triplet; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F3FE1D26343B8000621C43 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B7F3FE2526343C1200621C43 /* Triplet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triplet.h; sourceTree = "<group>"; };
+		B7F3FE2626343C1200621C43 /* Triplet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Triplet.c; sourceTree = "<group>"; };
+		B7F3FE292634517800621C43 /* Status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B7F3FDCA2632A7E900621C43 /* Frameworks */ = {
+		B7F3FE1726343B8000621C43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,64 +42,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B7F3FDC42632A7E900621C43 = {
+		B7F3FE1126343B8000621C43 = {
 			isa = PBXGroup;
 			children = (
-				B7F3FDCF2632A7E900621C43 /* Project */,
-				B7F3FDCE2632A7E900621C43 /* Products */,
+				B7F3FE1C26343B8000621C43 /* Triplet */,
+				B7F3FE1B26343B8000621C43 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B7F3FDCE2632A7E900621C43 /* Products */ = {
+		B7F3FE1B26343B8000621C43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7F3FDCD2632A7E900621C43 /* Project */,
+				B7F3FE1A26343B8000621C43 /* Triplet */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B7F3FDCF2632A7E900621C43 /* Project */ = {
+		B7F3FE1C26343B8000621C43 /* Triplet */ = {
 			isa = PBXGroup;
 			children = (
-				B7F3FDD02632A7E900621C43 /* main.cpp */,
+				B7F3FE1D26343B8000621C43 /* main.c */,
+				B7F3FE2526343C1200621C43 /* Triplet.h */,
+				B7F3FE2626343C1200621C43 /* Triplet.c */,
+				B7F3FE292634517800621C43 /* Status.h */,
 			);
-			path = Project;
+			path = Triplet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7F3FDCC2632A7E900621C43 /* Project */ = {
+		B7F3FE1926343B8000621C43 /* Triplet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7F3FDD42632A7E900621C43 /* Build configuration list for PBXNativeTarget "Project" */;
+			buildConfigurationList = B7F3FE2126343B8000621C43 /* Build configuration list for PBXNativeTarget "Triplet" */;
 			buildPhases = (
-				B7F3FDC92632A7E900621C43 /* Sources */,
-				B7F3FDCA2632A7E900621C43 /* Frameworks */,
-				B7F3FDCB2632A7E900621C43 /* CopyFiles */,
+				B7F3FE1626343B8000621C43 /* Sources */,
+				B7F3FE1726343B8000621C43 /* Frameworks */,
+				B7F3FE1826343B8000621C43 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Project;
-			productName = Project;
-			productReference = B7F3FDCD2632A7E900621C43 /* Project */;
+			name = Triplet;
+			productName = Triplet;
+			productReference = B7F3FE1A26343B8000621C43 /* Triplet */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B7F3FDC52632A7E900621C43 /* Project object */ = {
+		B7F3FE1226343B8000621C43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					B7F3FDCC2632A7E900621C43 = {
+					B7F3FE1926343B8000621C43 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = B7F3FDC82632A7E900621C43 /* Build configuration list for PBXProject "Project" */;
+			buildConfigurationList = B7F3FE1526343B8000621C43 /* Build configuration list for PBXProject "Triplet" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +110,30 @@
 				en,
 				Base,
 			);
-			mainGroup = B7F3FDC42632A7E900621C43;
-			productRefGroup = B7F3FDCE2632A7E900621C43 /* Products */;
+			mainGroup = B7F3FE1126343B8000621C43;
+			productRefGroup = B7F3FE1B26343B8000621C43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7F3FDCC2632A7E900621C43 /* Project */,
+				B7F3FE1926343B8000621C43 /* Triplet */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B7F3FDC92632A7E900621C43 /* Sources */ = {
+		B7F3FE1626343B8000621C43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F3FDD12632A7E900621C43 /* main.cpp in Sources */,
+				B7F3FE2726343C1200621C43 /* Triplet.c in Sources */,
+				B7F3FE1E26343B8000621C43 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B7F3FDD22632A7E900621C43 /* Debug */ = {
+		B7F3FE1F26343B8000621C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +192,7 @@
 			};
 			name = Debug;
 		};
-		B7F3FDD32632A7E900621C43 /* Release */ = {
+		B7F3FE2026343B8000621C43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +244,7 @@
 			};
 			name = Release;
 		};
-		B7F3FDD52632A7E900621C43 /* Debug */ = {
+		B7F3FE2226343B8000621C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -246,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		B7F3FDD62632A7E900621C43 /* Release */ = {
+		B7F3FE2326343B8000621C43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,25 +267,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7F3FDC82632A7E900621C43 /* Build configuration list for PBXProject "Project" */ = {
+		B7F3FE1526343B8000621C43 /* Build configuration list for PBXProject "Triplet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7F3FDD22632A7E900621C43 /* Debug */,
-				B7F3FDD32632A7E900621C43 /* Release */,
+				B7F3FE1F26343B8000621C43 /* Debug */,
+				B7F3FE2026343B8000621C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7F3FDD42632A7E900621C43 /* Build configuration list for PBXNativeTarget "Project" */ = {
+		B7F3FE2126343B8000621C43 /* Build configuration list for PBXNativeTarget "Triplet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7F3FDD52632A7E900621C43 /* Debug */,
-				B7F3FDD62632A7E900621C43 /* Release */,
+				B7F3FE2226343B8000621C43 /* Debug */,
+				B7F3FE2326343B8000621C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B7F3FDC52632A7E900621C43 /* Project object */;
+	rootObject = B7F3FE1226343B8000621C43 /* Project object */;
 }

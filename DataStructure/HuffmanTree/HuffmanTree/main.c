@@ -1,14 +1,14 @@
 //
-//  main.cpp
-//  Project
+//  main.c
+//  HuffmanTree
 //
 //  Created by Lyilan on 2021/4/23.
 //
 
-#include <iostream>
+#include <stdio.h>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    printf("Hello, World!\n");
     return 0;
 }
